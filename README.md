@@ -10,4 +10,4 @@ I analyzed Terry Stop data from the Seattle Open Data database. I looked over 50
 ## Buisness Case
 As an independent data scientist, my goal was to analyze Terry Stops that ended in an arrest. I analyzed Terry Stop data from the Seattle Open Data database. I looked over 50,000 cases of Terry Stops between 2015-2022 and built a prediction model to gain insight on what ploicy changes and community efforts can be made to reduce the number of arrest. 
 
-![Terry v. Ohio]([https://i0.wp.com/daiglelawgroup.com/wp-content/uploads/2019/09/terry-stop-vs-arrest.jpg?fit=2000%2C1000&ssl=1](https://img.geocaching.com/waymarking/display/e6a132fc-7cdf-4ceb-b337-abb23672907f.jpg))
+![Terry v. Ohio](https://img.geocaching.com/waymarking/display/e6a132fc-7cdf-4ceb-b337-abb23672907f.jpg)
