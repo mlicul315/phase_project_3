@@ -29,9 +29,42 @@ Columns:
    - [Frisk Flag]: If a "frisk" was conducted 
    - [Precinct]: Precinct of the address associated with the underlying Computer Aided Dispatch (CAD) event
 
+## Data Cleaning
+Since I am looking at Terry Stops that resulted in an arrest as the target feature, I classified the 'Stop Resolution' columns into two categories:
+   - 0 = No Arrest 
+   - 1 = Arrest
+
+Additioanlly, I created bins / and combined values in different columns to make better visuals. These included: 
+   - Officer Age from Officer YOB
+   - Officer Age Group
+   - Time of Day
+   - Subject Percevied Race
+   - Officer Race
+   - Combined Weapon Types
+
 
 ## Exploratory data analysis
-A 
+After the data was cleaned I built several visuals to get a better understanding of what I was looking at. 
+### Outcomes
+![download-2](https://user-images.githubusercontent.com/97541858/211276103-e7546229-fc37-42f2-ac2b-9cc78c643f84.png)
+By looking at the visual, there are various outcomes.
+- Field Contact: ~42%
+- Offense Report ~31%
+- Arrest: ~25%
+- Referred for Prosecution & Citation / Infraction: < 5%
+
+### Arrest by Year
+![download-1](https://user-images.githubusercontent.com/97541858/211276313-018f2ef1-9d10-4c41-900a-5283e67b3264.png)
+The 'Arrest by Year' visual results show:
+- Year with Most Arrest: 2018 with ~2300
+- Year with Fewest Arrest: 2022 with ~950
+There was a drastic decrease in arrest between 2019 and 2020. Arrest continue to decrease up until the data ends in 2022.
+
+### Arrest by Weapon Type
+![download](https://user-images.githubusercontent.com/97541858/211276425-18c5cbdf-3e50-4eb6-8963-e9de43e91df4.png)
+The 'Arrest by Weapon Type' visual shows:
+In ~90% of arrest, no weapon was reported to be found on the subject.
+I intended to drop the remaining columns aside from 'Cutting / Stabbing Instrument', but I wanted to keep them on the visual to show the staggering difference between any weapon found and no weapons found.
 
 ## Predicitve Model 
 
