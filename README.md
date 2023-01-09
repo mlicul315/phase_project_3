@@ -1,6 +1,6 @@
 # Seattle Terry Stops
 Author: [Michael Licul](mailto:liculm315@gmail.com)
-![Terry Stop](https://i0.wp.com/daiglelawgroup.com/wp-content/uploads/2019/09/terry-stop-vs-arrest.jpg?fit=2000%2C1000&ssl=1)
+![Screenshot 2023-01-09 at 3 57 16 AM](https://user-images.githubusercontent.com/97541858/211273123-bb3e589e-85c1-48f6-9c3f-3ffa35428fb0.png)
 
 ## Overview 
 Terry Stops permit law enforcement to detain an individual based on reasonable suspicion of a crime. In 1967-1968 the Supreme Court case, Terry v. Ohio, the court ruled that stopping an individual on suspicious behavior does not violate the ‘unreasonable search and seizure’ clause of the Fourth Amendment. Thus, Terry Stops were born. 
@@ -12,4 +12,27 @@ As an independent data scientist, my goal was to analyze Terry Stops that ended 
 
 ![Terry v. Ohio](https://img.geocaching.com/waymarking/display/e6a132fc-7cdf-4ceb-b337-abb23672907f.jpg)
 
-![Screenshot 2023-01-09 at 3 57 16 AM](https://user-images.githubusercontent.com/97541858/211273123-bb3e589e-85c1-48f6-9c3f-3ffa35428fb0.png)
+## Data Understanding 
+Columns: 
+   - [Subject Age Group]: Subject Age Group (10 year increments) as reported by the officer
+   - [Stop Resolution]: Resolution of the stop as reported by the officer
+   - [Weapon Type]: Type of weapon, if any, identified during a search or frisk of the subject
+   - [Officer YOB]: Officer Year of Birth
+   - [Officer Gender]: Gender of the Officer 
+   - [Officer Race]: Race of the Officer
+   - [Subject Perceived Race]: Race of the Subject 
+   - [Subject Perceived Gender]: Gender of the Subject 
+   - [Reported Date]: Date the stop was reported
+   - [Initial Call Type]: Initial classification of the call as assigned by 911
+   - [Final Call Type]: Final classification of the call as assigned by the primary officer closing the event
+   - [Arrest Flag]: If a physical arrest was made 
+   - [Frisk Flag]: If a "frisk" was conducted 
+   - [Precinct]: Precinct of the address associated with the underlying Computer Aided Dispatch (CAD) event
+
+
+## Exploratory data analysis
+A 
+
+## Predicitve Model 
+
+## 
