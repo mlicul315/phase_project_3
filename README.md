@@ -67,5 +67,13 @@ In ~90% of arrest, no weapon was reported to be found on the subject.
 I intended to drop the remaining columns aside from 'Cutting / Stabbing Instrument', but I wanted to keep them on the visual to show the staggering difference between any weapon found and no weapons found.
 
 ## Predicitve Model 
+After building several models and tuning the parameters this was the result. 
+Logistic Regression Score: 0.74
+Dummy Classifier Score: 0.74
+Random Forrest Score: 0.82
+Gradient Booster Score: 0.83
+Decision Tree: 0.80
+After getting the initial scores for each of the models, I tuned the parameters to increase the models accuracy. The model that performed the best was the Gradient Booster Model.
 
-## 
+## Next Steps
+Going further, I would like to collect more data so that the model can be fine tuned even more to achieve better results. Additioanlly, getting data from outside sources may help to create a better model. 
