@@ -1,8 +1,7 @@
 # Seattle Terry Stops
 Author: [Michael Licul](mailto:liculm315@gmail.com)
-![Terry Stop](https://i0.wp.com/daiglelawgroup.com/wp-content/uploads/2019/09/terry-stop-vs-arrest.jpg?fit=2000%2C1000&ssl=1)
 
-![PDF](/Users/michaellicul/Desktop/READme Visuals/Screenshot 2023-01-09 at 3.57.16 AM.png)
+!(/Users/michaellicul/Desktop/READme Visuals/Screenshot 2023-01-09 at 3.57.16 AM.png)
 
 ## Overview 
 Terry Stops permit law enforcement to detain an individual based on reasonable suspicion of a crime. In 1967-1968 the Supreme Court case, Terry v. Ohio, the court ruled that stopping an individual on suspicious behavior does not violate the ‘unreasonable search and seizure’ clause of the Fourth Amendment. Thus, Terry Stops were born. 
